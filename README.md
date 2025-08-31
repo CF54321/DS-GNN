@@ -13,3 +13,19 @@ Interpretability: node-masking–based importance per subject.
 ENIGMA alignment: stratified spin tests and top-tail enrichment analyses.
 
 Multi-center robustness: phenotype-aware population graph construction.
+
+# Environment
+
+Python 3.7
+
+PyTorch + PyTorch Geometric (match wheels to your CUDA version)
+
+NumPy / SciPy / pandas / scikit-learn
+
+nibabel / nilearn
+
+enigmatoolbox
+
+tensorboardX
+
+Tip: Install PyTorch and PyG from their official instructions matching your CUDA. Then pip install the rest.
